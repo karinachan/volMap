@@ -123,12 +123,12 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: rgba(247,175,159,.5);
         background-color: transparent;
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(247,175,159,.5);
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(http://bespokemagazineonline.com/wp-content/uploads/2012/09/Food361.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -465,6 +465,7 @@ img::selection {
     color: #fff;
     background: 0 0;
 }
+img{width: !important;}
 
 img::-moz-selection {
     color: #fff;
