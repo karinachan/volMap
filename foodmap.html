@@ -58,7 +58,7 @@
               error: function(images, error) {
                 // Execute any logic that should take place if the save fails.
                 // error is a Parse.Error with an error code and message.
-                console.log('Failed to create new object, with error code: ' + error.message);
+                //console.log('Failed to create new object, with error code: ' + error.message);
               }
           });
       }
@@ -74,8 +74,9 @@
 
   <script>
   L.mapbox.accessToken = 'pk.eyJ1IjoiY2luZHl0dTExNSIsImEiOiJjaWZia3hjMTcybHl2cnhrbm5kbmJsOW80In0.a9hyQ2vT4yC3TmszcrJ3ng';
-  var map = L.mapbox.map('map', 'mapbox.streets')
-      .setView([43.229, -79.453], 5);
+  var map = L.mapbox.map('map', 'mapbox.streets',{
+    //zoomControl:false
+  }).setView([43.229, -79.453], 5);
 
 var Image = Parse.Object.extend("Image");
 
